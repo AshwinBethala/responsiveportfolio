@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Calvin notes: custom Styling After reset.css and bootstrap if applicable -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header class="myContainer row">
+    <h1 class="col-lg-4">Ashwin Bethala</h1>
+    <div class="col-lg-8">
+      <!-- 
+        Calvin notes: I recommend you use bootstrap nav. It has a lot of the style and responsive that you'll need. Below is it I got it from this website
+        https://getbootstrap.com/docs/4.3/components/navs/ 
+      -->
+      <ul class="nav nav-wrapper">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html" target="-blank">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html" target="-blank">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" target="-blank">Contact</a>
+        </li>
+      </ul>
+    </div>
+   
+  </header>
+  
+  <div class="container2 row">
+    <div class="col-lg-2"></div>
+    <section id="main-bio" class="col-lg-8 col-md-10 col-sm-12">
+      <div class="row">
+        <h2>Contact</h2>
+
+        <hr />
+
+      </div>
+      <div class="row form1">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Name</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="John Doe">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="message-text">
+          <textarea id="subject" name="subject" style="height:150px; width: 700px;"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+</div>
+
+    </section>
+
+    <!-- 
+      Calvins notes: just a thought try and use a lot of bootstrap components. So you wont have to build on your own. Take a looks at their forms component.
+      I copy and paste one below from their documentation. You'll have to modify and update of course to meet your need.
+
+      https://getbootstrap.com/docs/4.3/components/forms/
+    -->
+
+    <!--
+      <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form> 
+  
+    -->
+
+  </div>
+
+  <footer>
+    <h6>Copyright@2019</h6>
+  </footer>
+
+</body>
+
+</html>
